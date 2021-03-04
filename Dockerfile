@@ -6,5 +6,5 @@ RUN apt-get update && apt-get upgrade
 
 
 
-CMD ["touch", "/root/hello"]
+CMD ["touch", "/root/hell"]
 
