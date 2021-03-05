@@ -2,7 +2,7 @@ FROM ubuntu:20.10
 
 MAINTAINER oak <oak@****.com>
 
-RUN apt-get update && apt-get upgrade && apt-get install git
+RUN apt-get update && apt-get upgrade && yes | apt-get install git
 
 RUN mkdir /opt/space
 WORKDIR /opt/space
